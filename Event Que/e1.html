@@ -1,0 +1,35 @@
+<!-- create a toggle button that changes the scren to dark mode when clicked and light mode when cllicked again -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+
+    let btn = document.createElement("button");
+    let body = document.querySelector("body");
+    btn.innerText = "change mode";
+    let curr = "light";
+    console.log(btn)
+    body.append(btn)
+    btn.addEventListener("click", () => {
+        if( curr === "light" ){
+            curr = "dark"
+            body.style.backgroundColor = "black"
+        }else{
+            curr = "light"
+            body.style.backgroundColor = "grey"
+        }
+        console.log(curr)
+    })
+
+
+
+</script>
