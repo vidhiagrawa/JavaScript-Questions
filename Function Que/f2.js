@@ -18,9 +18,13 @@
     }
     upper()
 
+
+
+
     // let num = "the quick brown fox"
     // let upper = () => {
     //         let capital = num.split(" ")
+    //         console.log();
     //         let text;
     //         let cap = "a";
     //         for( let i = 0; i < capital.length; i++ ){
