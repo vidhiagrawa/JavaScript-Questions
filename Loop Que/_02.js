@@ -16,9 +16,9 @@ let add = arr.reduce( (sum, curr) => {
 
 let prod = arr.reduce( (sum, curr) => {
     return sum * curr;
-} )
+// } )
 
-console.log("the sum : ", add)
+// console.log("the sum : ", add)
 
-console.log("the product : ", prod)
+// console.log("the product : ", prod)
 
